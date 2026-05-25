@@ -286,6 +286,18 @@ layout: default
           </div>
         {% endif %}
 
+        <!-- Patents -->
+        {% if site.data.resume.patents.size > 0 %}
+          <a class="anchor" id="patents"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">Patents</h3>
+            <div>
+              {% assign entries = site.data.resume.patents %}
+              {% include cv/publications.liquid %}
+            </div>
+          </div>
+        {% endif %}
+
         <!-- Education -->
         {% if site.data.resume.education.size > 0 %}
           <a class="anchor" id="education"></a>

@@ -55,11 +55,18 @@
   ],
   "publications": [
     {
-      "name": "PRISM: Privacy-Preserving Improved Stochastic Masking for Federated Generative Models",
-      "publisher": "International Conference on Learning Representations (ICLR)",
-      "releaseDate": "2025-04-01",
-      "url": "https://arxiv.org/abs/2503.08085",
-      "summary": "K. Seo, D.-J. Han, and J. Yoo. ICLR 2025, Singapore."
+      "name": "What Linear Probes Miss: Multi-View Probing for Weight-Space Learning",
+      "publisher": "International Conference on Machine Learning (ICML)",
+      "releaseDate": "2026-07-01",
+      "url": "",
+      "summary": "E. Heo, K. Seo, and J. Yoo. ICML 2026, Vancouver (Poster)."
+    },
+    {
+      "name": "가중치 공간에서의 위상-기반 모델 분류 (Topology-based Model Classification in Weight Space)",
+      "publisher": "Workshop on Image Processing and Image Understanding (IPIU)",
+      "releaseDate": "2026-02-01",
+      "url": "",
+      "summary": "E. Heo, K. Seo, and J. Yoo. IPIU 2026, Korea. Best Poster Presentation Award (우수포스터발표상)."
     },
     {
       "name": "Understanding Flatness in Generative Models: Its Role and Benefits",
@@ -69,11 +76,25 @@
       "summary": "T. Lee, K. Seo, J. Yoo, and S. W. Yoon. ICCV 2025."
     },
     {
-      "name": "What Linear Probes Miss: Multi-View Probing for Weight-Space Learning",
-      "publisher": "International Conference on Machine Learning (ICML)",
-      "releaseDate": "2026-07-01",
+      "name": "PRISM: Privacy-Preserving Improved Stochastic Masking for Federated Generative Models",
+      "publisher": "International Conference on Learning Representations (ICLR)",
+      "releaseDate": "2025-04-01",
+      "url": "https://arxiv.org/abs/2503.08085",
+      "summary": "K. Seo, D.-J. Han, and J. Yoo. ICLR 2025, Singapore."
+    },
+    {
+      "name": "원격 광혈류측정 기반 딥페이크 탐지 방법론들의 재현가능성 분석 (Reproducibility Analysis of rPPG-based Deepfake Detection Methods)",
+      "publisher": "Workshop on Image Processing and Image Understanding (IPIU)",
+      "releaseDate": "2025-02-01",
       "url": "",
-      "summary": "E. Heo, K. Seo, and J. Yoo. ICML 2026, Vancouver (Poster)."
+      "summary": "K. Kim, C. Hwang, K. Seo, and J. Yoo. IPIU 2025, Korea."
+    },
+    {
+      "name": "확률적 이진마스크를 통한 강력하고 효율적인 생성모델 연합학습 (Robust and Efficient Federated Learning of Generative Models via Stochastic Binary Masks)",
+      "publisher": "Workshop on Image Processing and Image Understanding (IPIU)",
+      "releaseDate": "2024-02-01",
+      "url": "",
+      "summary": "K. Seo and J. Yoo. IPIU 2024, Korea."
     }
   ],
   "work": [
@@ -134,6 +155,27 @@
       "date": "2026",
       "awarder": "International Conference on Machine Learning (ICML)",
       "summary": "Recognized as a Silver Reviewer for ICML 2026."
+    },
+    {
+      "title": "Best Poster Presentation Award (우수포스터발표상)",
+      "date": "2026-02-01",
+      "awarder": "Workshop on Image Processing and Image Understanding (IPIU 2026)",
+      "summary": "For \"가중치 공간에서의 위상-기반 모델 분류\" (Heo, Seo, Yoo)."
+    },
+    {
+      "title": "Best Poster Grand Award (우수 포스터 대상)",
+      "date": "2025-10-01",
+      "awarder": "2025 UNIST AI Technology Open Workshop",
+      "summary": "For PRISM (ICLR 2025); advisor: Jaejun Yoo."
+    }
+  ],
+  "patents": [
+    {
+      "name": "MMD 손실함수를 이용한 이진 마스크 기반 생성 모델 연합 학습 시스템 및 이를 이용한 생성 모델 연합 학습 방법",
+      "publisher": "Korea Patent Application No. 10-2024-0173205",
+      "releaseDate": "2024-11-01",
+      "url": "",
+      "summary": "J. Yoo, K. Seo, and D.-J. Han."
     }
   ],
   "skills": [
