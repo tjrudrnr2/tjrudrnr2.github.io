@@ -13,8 +13,26 @@ nav_order: 1
 
 {% include bib_search.liquid %}
 
+## International Conferences
+
 <div class="publications">
 
 {% bibliography %}
+
+</div>
+
+## Domestic Conferences (국내 학회)
+
+<div class="publications">
+
+{% bibliography --file domestic %}
+
+</div>
+
+## Awards &amp; Patents (수상 / 특허)
+
+<div class="publications">
+
+{% bibliography --file patents %}
 
 </div>
