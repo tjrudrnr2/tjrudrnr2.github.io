@@ -62,13 +62,6 @@
       "summary": "E. Heo, K. Seo, and J. Yoo. ICML 2026, Vancouver (Poster)."
     },
     {
-      "name": "가중치 공간에서의 위상-기반 모델 분류 (Topology-based Model Classification in Weight Space)",
-      "publisher": "Workshop on Image Processing and Image Understanding (IPIU)",
-      "releaseDate": "2026-02-01",
-      "url": "",
-      "summary": "E. Heo, K. Seo, and J. Yoo. IPIU 2026, Korea. Best Poster Presentation Award (우수포스터발표상)."
-    },
-    {
       "name": "Understanding Flatness in Generative Models: Its Role and Benefits",
       "publisher": "International Conference on Computer Vision (ICCV)",
       "releaseDate": "2025-10-01",
@@ -81,6 +74,15 @@
       "releaseDate": "2025-04-01",
       "url": "https://arxiv.org/abs/2503.08085",
       "summary": "K. Seo, D.-J. Han, and J. Yoo. ICLR 2025, Singapore."
+    }
+  ],
+  "domestic_publications": [
+    {
+      "name": "가중치 공간에서의 위상-기반 모델 분류 (Topology-based Model Classification in Weight Space)",
+      "publisher": "Workshop on Image Processing and Image Understanding (IPIU)",
+      "releaseDate": "2026-02-01",
+      "url": "",
+      "summary": "E. Heo, K. Seo, and J. Yoo. IPIU 2026, Korea. Best Poster Presentation Award (우수포스터발표상)."
     },
     {
       "name": "원격 광혈류측정 기반 딥페이크 탐지 방법론들의 재현가능성 분석 (Reproducibility Analysis of rPPG-based Deepfake Detection Methods)",

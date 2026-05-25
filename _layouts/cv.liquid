@@ -274,13 +274,25 @@ layout: default
           </div>
         {% endif %}
 
-        <!-- Publications -->
+        <!-- Publications (International Conferences) -->
         {% if site.data.resume.publications.size > 0 %}
           <a class="anchor" id="publications"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">Publications</h3>
+            <h3 class="card-title font-weight-medium">International Conferences</h3>
             <div>
               {% assign entries = site.data.resume.publications %}
+              {% include cv/publications.liquid %}
+            </div>
+          </div>
+        {% endif %}
+
+        <!-- Domestic Publications (국내 학회) -->
+        {% if site.data.resume.domestic_publications.size > 0 %}
+          <a class="anchor" id="domestic-publications"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">Domestic Conferences (국내 학회)</h3>
+            <div>
+              {% assign entries = site.data.resume.domestic_publications %}
               {% include cv/publications.liquid %}
             </div>
           </div>
