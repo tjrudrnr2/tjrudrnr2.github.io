@@ -1,0 +1,143 @@
+{
+  "basics": {
+    "name": "KyeongKook Seo (서경국)",
+    "label": "Ph.D. Student in Artificial Intelligence",
+    "image": "",
+    "email": "kyeongkookseo@unist.ac.kr",
+    "summary": "Ph.D. student in the Lab of Advanced Imaging Technology (LAIT), AIGS, UNIST, advised by Prof. Jaejun Yoo. Research interests include generative models, federated learning, safety AI, loss landscape geometry, and weight-space learning.",
+    "location": {
+      "address": "AIGS, UNIST, 50 UNIST-gil, Ulju-gun",
+      "city": "Ulsan",
+      "postalCode": "44919",
+      "countryCode": "KR",
+      "region": "South Korea"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "tjrudrnr2",
+        "url": "https://github.com/tjrudrnr2"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "Ulsan National Institute of Science and Technology (UNIST)",
+      "location": "Ulsan, South Korea",
+      "url": "https://www.unist.ac.kr/",
+      "area": "Artificial Intelligence",
+      "studyType": "Ph.D.",
+      "startDate": "2025-03-01",
+      "endDate": "Present",
+      "summary": "Advisor: Prof. Jaejun Yoo, Lab of Advanced Imaging Technology (LAIT)."
+    },
+    {
+      "institution": "Ulsan National Institute of Science and Technology (UNIST)",
+      "location": "Ulsan, South Korea",
+      "url": "https://www.unist.ac.kr/",
+      "area": "Artificial Intelligence",
+      "studyType": "M.S.",
+      "startDate": "2023-02-01",
+      "endDate": "2025-02-01",
+      "score": "3.77 / 4.3",
+      "summary": "Advisor: Prof. Jaejun Yoo, Lab of Advanced Imaging Technology (LAIT)."
+    },
+    {
+      "institution": "Inha University",
+      "location": "Incheon, South Korea",
+      "url": "https://www.inha.ac.kr/",
+      "area": "Computer Science Engineering",
+      "studyType": "B.S.",
+      "startDate": "2016-03-01",
+      "endDate": "2022-02-01",
+      "score": "3.88 / 4.5"
+    }
+  ],
+  "publications": [
+    {
+      "name": "PRISM: Privacy-Preserving Improved Stochastic Masking for Federated Generative Models",
+      "publisher": "International Conference on Learning Representations (ICLR)",
+      "releaseDate": "2025-04-01",
+      "url": "https://arxiv.org/abs/2503.08085",
+      "summary": "K. Seo, D.-J. Han, and J. Yoo. ICLR 2025, Singapore."
+    },
+    {
+      "name": "Understanding Flatness in Generative Models: Its Role and Benefits",
+      "publisher": "International Conference on Computer Vision (ICCV)",
+      "releaseDate": "2025-10-01",
+      "url": "https://arxiv.org/abs/2503.11078",
+      "summary": "T. Lee, K. Seo, J. Yoo, and S. W. Yoon. ICCV 2025."
+    },
+    {
+      "name": "What Linear Probes Miss: Multi-View Probing for Weight-Space Learning",
+      "publisher": "International Conference on Machine Learning (ICML)",
+      "releaseDate": "2026-07-01",
+      "url": "",
+      "summary": "E. Heo, K. Seo, and J. Yoo. ICML 2026, Vancouver (Poster)."
+    }
+  ],
+  "work": [
+    {
+      "name": "Lab of Advanced Imaging Technology (LAIT), UNIST",
+      "position": "Graduate Researcher",
+      "location": "Ulsan, South Korea",
+      "startDate": "2022-08-01",
+      "endDate": "2022-12-01",
+      "summary": "Generative Feature Matching Network — improving performance of GFMN.",
+      "highlights": []
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "SmileGate AI Membership",
+      "position": "Member",
+      "startDate": "2022-06-01",
+      "endDate": "2022-11-01",
+      "summary": "Developed project originating from K-digital Hackathon."
+    },
+    {
+      "organization": "K-digital Hackathon",
+      "position": "Participant",
+      "startDate": "2022-05-01",
+      "endDate": "2022-06-01",
+      "summary": "Filtering Violence Scene in Video Data — multi-modal violence detection (image + audio features)."
+    },
+    {
+      "organization": "Naver Boostcamp AI Tech",
+      "position": "Trainee",
+      "startDate": "2022-01-01",
+      "endDate": "2022-06-01",
+      "summary": "Completed bootcamp certification."
+    }
+  ],
+  "awards": [
+    {
+      "title": "Silver Reviewer",
+      "date": "2026",
+      "awarder": "International Conference on Machine Learning (ICML)",
+      "summary": "Recognized as a Silver Reviewer for ICML 2026."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": ["Python", "C", "C++"]
+    },
+    {
+      "name": "Frameworks",
+      "keywords": ["PyTorch"]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Research Interests",
+      "keywords": [
+        "Generative Models",
+        "Safety AI",
+        "Federated Learning",
+        "Loss Landscape Geometry",
+        "Weight-Space Learning"
+      ]
+    }
+  ]
+}
