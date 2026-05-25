@@ -78,6 +78,24 @@
   ],
   "work": [
     {
+      "name": "Introduction to AI Programming II, UNIST",
+      "position": "Teaching Assistant",
+      "location": "Ulsan, South Korea",
+      "startDate": "2026-03-01",
+      "endDate": "2026-06-01",
+      "summary": "Teaching Assistant for the undergraduate course Introduction to AI Programming II (Spring 2026).",
+      "highlights": []
+    },
+    {
+      "name": "Deep Generative Models (심층생성모델), UNIST",
+      "position": "Teaching Assistant",
+      "location": "Ulsan, South Korea",
+      "startDate": "2024-03-01",
+      "endDate": "2024-06-01",
+      "summary": "Teaching Assistant for the graduate course Deep Generative Models (Spring 2024).",
+      "highlights": []
+    },
+    {
       "name": "Lab of Advanced Imaging Technology (LAIT), UNIST",
       "position": "Graduate Researcher",
       "location": "Ulsan, South Korea",

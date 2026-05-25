@@ -260,18 +260,28 @@ layout: default
           </div>
         {% endif %}
 
-        <!-- JSONResume Sections - Merge work and volunteer into Experience -->
-        {% assign empty_array = '' | split: ',' %}
-        {% assign work = site.data.resume.work | default: empty_array %}
-        {% assign vol = site.data.resume.volunteer | default: empty_array %}
-        {% assign combined_experience = work | concat: vol %}
-        {% if combined_experience.size > 0 %}
-          <a class="anchor" id="experience"></a>
+        <!-- JSONResume Sections - Custom order: Interests, Publications, Education, Awards, Experience, Skills -->
+
+        <!-- Interests -->
+        {% if site.data.resume.interests.size > 0 %}
+          <a class="anchor" id="interests"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">Experience</h3>
+            <h3 class="card-title font-weight-medium">Interests</h3>
             <div>
-              {% assign entries = combined_experience %}
-              {% include cv/experience.liquid %}
+              {% assign entries = site.data.resume.interests %}
+              {% include cv/interests.liquid %}
+            </div>
+          </div>
+        {% endif %}
+
+        <!-- Publications -->
+        {% if site.data.resume.publications.size > 0 %}
+          <a class="anchor" id="publications"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">Publications</h3>
+            <div>
+              {% assign entries = site.data.resume.publications %}
+              {% include cv/publications.liquid %}
             </div>
           </div>
         {% endif %}
@@ -300,14 +310,18 @@ layout: default
           </div>
         {% endif %}
 
-        <!-- Publications -->
-        {% if site.data.resume.publications.size > 0 %}
-          <a class="anchor" id="publications"></a>
+        <!-- Experience - Merge work and volunteer -->
+        {% assign empty_array = '' | split: ',' %}
+        {% assign work = site.data.resume.work | default: empty_array %}
+        {% assign vol = site.data.resume.volunteer | default: empty_array %}
+        {% assign combined_experience = work | concat: vol %}
+        {% if combined_experience.size > 0 %}
+          <a class="anchor" id="experience"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">Publications</h3>
+            <h3 class="card-title font-weight-medium">Experience</h3>
             <div>
-              {% assign entries = site.data.resume.publications %}
-              {% include cv/publications.liquid %}
+              {% assign entries = combined_experience %}
+              {% include cv/experience.liquid %}
             </div>
           </div>
         {% endif %}
@@ -332,18 +346,6 @@ layout: default
             <div>
               {% assign entries = site.data.resume.languages %}
               {% include cv/languages.liquid %}
-            </div>
-          </div>
-        {% endif %}
-
-        <!-- Interests -->
-        {% if site.data.resume.interests.size > 0 %}
-          <a class="anchor" id="interests"></a>
-          <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">Interests</h3>
-            <div>
-              {% assign entries = site.data.resume.interests %}
-              {% include cv/interests.liquid %}
             </div>
           </div>
         {% endif %}
